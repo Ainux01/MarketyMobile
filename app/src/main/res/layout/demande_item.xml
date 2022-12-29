@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="90dp"
+    android:background="@drawable/layout_bg"
+    android:layout_marginBottom="15dp"
+    android:gravity="center_vertical"
+    android:layout_centerInParent="true">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="18dp"
+        app:srcCompat="@drawable/local_grocery_store" />
+
+    <android.widget.Button
+        android:id="@+id/buttonDetailsDemandes"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginEnd="17dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:background="@drawable/keyboard_arrow"
+        android:contentDescription="@string/fab_transformation_sheet_behavior"
+        android:text=""
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textViewTitleAndStatus"
+        android:layout_width="194dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="59dp"
+        android:text="TextView"
+        android:textSize="8sp" />
+
+</RelativeLayout>
